@@ -15,4 +15,12 @@ $dischi = [
         "poster" => "https://images-na.ssl-images-amazon.com/images/I/71g40mlbinL._SX355_.jpg",
         "genre" => "Pop"
     ]
-]
+];
+
+header('Content-type: application/json');
+
+$response = [
+    'results' => $dischi
+];
+
+echo json_encode($response);

@@ -1,0 +1,34 @@
+/*RESET*/
+
+img {
+    max-width: 100%;
+}
+
+.blue-background {
+    background-color: #1D2D3C;
+}
+
+/*HEADER*/
+
+.page-header {
+    background-color: #06131F;
+    padding: 15px 100px;
+}
+
+.logo {
+    width: 30px;
+}
+
+/*CARD*/
+
+.disc-card {
+    background-color: #112030;
+    color: white;
+
+}
+
+.card-body img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+}
