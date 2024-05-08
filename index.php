@@ -21,7 +21,7 @@
         <main>
             <section class="py-4">
                 <div class="container">
-                    <div class="row row-cols-3">
+                    <div class="row row-cols-3 gy-5">
                         <div v-for="disco in dischi" class="col">
                             <div class="card disc-card mx-3 px-3">
                                 <div class="card-body text-center">
